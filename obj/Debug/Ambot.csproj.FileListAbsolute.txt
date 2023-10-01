@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\AUPP\Final Year Project\AUPP\Ambot\obj\Debug\Ambot.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\AUPP\Final Year Project\AUPP\Ambot\obj\Debug\Ambot.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\AUPP\Final Year Project\AUPP\Ambot\obj\Debug\Ambot.Form1.resources
+C:\Users\User\Desktop\AUPP\Final Year Project\AUPP\Ambot\obj\Debug\Ambot.Properties.Resources.resources
+C:\Users\User\Desktop\AUPP\Final Year Project\AUPP\Ambot\obj\Debug\Ambot.csproj.GenerateResource.cache
+C:\Users\User\Desktop\AUPP\Final Year Project\AUPP\Ambot\obj\Debug\Ambot.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\AUPP\Final Year Project\AUPP\Ambot\bin\Debug\Ambot.exe.config
+C:\Users\User\Desktop\AUPP\Final Year Project\AUPP\Ambot\bin\Debug\Ambot.exe
+C:\Users\User\Desktop\AUPP\Final Year Project\AUPP\Ambot\bin\Debug\Ambot.pdb
+C:\Users\User\Desktop\AUPP\Final Year Project\AUPP\Ambot\obj\Debug\Ambot.exe
+C:\Users\User\Desktop\AUPP\Final Year Project\AUPP\Ambot\obj\Debug\Ambot.pdb
+C:\Users\User\Desktop\AUPP\Final Year Project\AUPP\Ambot\obj\Debug\Ambot.home.resources
+C:\Users\User\Desktop\AUPP\Final Year Project\AUPP\Ambot\obj\Debug\Ambot.news.resources
+C:\Users\User\Desktop\AUPP\Final Year Project\AUPP\Ambot\obj\Debug\Ambot.majors.resources
+C:\Users\User\Desktop\AUPP\Final Year Project\AUPP\Ambot\obj\Debug\Ambot.majors_single.resources
