@@ -198,3 +198,8 @@ C:\Users\User\Desktop\Ambot 1.1\Ambot-vathBranch-new\Ambot-vathBranch\obj\Debug\
 C:\Users\User\Desktop\Ambot 1.1\Ambot-vathBranch-new\Ambot-vathBranch\obj\Debug\Ambot.csproj.CoreCompileInputs.cache
 C:\Users\User\Desktop\Ambot 1.1\Ambot-vathBranch-new\Ambot-vathBranch\obj\Debug\Ambot.exe
 C:\Users\User\Desktop\Ambot 1.1\Ambot-vathBranch-new\Ambot-vathBranch\obj\Debug\Ambot.pdb
+C:\Users\User\Desktop\Ambot 1.1\Ambot-vathBranch-new\Ambot-vathBranch\obj\Debug\Ambot.bachelor.resources
+C:\Users\User\Desktop\Ambot 1.1\Ambot-vathBranch-new\Ambot-vathBranch\obj\Debug\Ambot.international.resources
+C:\Users\User\Desktop\Ambot 1.1\Ambot-vathBranch-new\Ambot-vathBranch\obj\Debug\Ambot.master.resources
+C:\Users\User\Desktop\Ambot 1.1\Ambot-vathBranch-new\Ambot-vathBranch\obj\Debug\Ambot.transfer.resources
+C:\Users\User\Desktop\Ambot 1.1\Ambot-vathBranch-new\Ambot-vathBranch\obj\Debug\Ambot.criteria.resources

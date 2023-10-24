@@ -35,6 +35,12 @@
             this.buttonRadiusRight3 = new Ambot.ButtonRadius.ButtonRadiusRight();
             this.buttonRadiusLeft2 = new Ambot.ButtonRadius.ButtonRadiusLeft();
             this.buttonRadiusLeft3 = new Ambot.ButtonRadius.ButtonRadiusLeft();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonRadiusRight1
@@ -153,10 +159,51 @@
             this.buttonRadiusLeft3.TextColor = System.Drawing.Color.White;
             this.buttonRadiusLeft3.UseVisualStyleBackColor = false;
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Location = new System.Drawing.Point(451, 125);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1011, 846);
+            this.panel1.TabIndex = 45;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Proxima Nova Rg", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(310, 336);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(416, 81);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Please choose on of the following:\r\n\r\n\r\n";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Futura BdCn BT", 60F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(326, 72);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(348, 96);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Enrollment";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1011, 247);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // enrollment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.buttonRadiusLeft3);
             this.Controls.Add(this.buttonRadiusLeft2);
             this.Controls.Add(this.buttonRadiusRight3);
@@ -166,6 +213,9 @@
             this.Name = "enrollment";
             this.Size = new System.Drawing.Size(1920, 1080);
             this.Load += new System.EventHandler(this.enrollment_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -178,5 +228,9 @@
         private ButtonRadius.ButtonRadiusRight buttonRadiusRight3;
         private ButtonRadius.ButtonRadiusLeft buttonRadiusLeft2;
         private ButtonRadius.ButtonRadiusLeft buttonRadiusLeft3;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

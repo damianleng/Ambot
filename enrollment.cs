@@ -42,9 +42,25 @@ namespace Ambot
             Form1 form1 = this.ParentForm as Form1;
             switch (btnValue)
             {
+                case Form1.button3Value:
+                    bachelor bachelor = new bachelor();
+                    form1.SwitchUserControl(bachelor); // switch the user to the contact page
+                    break;
+                case Form1.button4Value:
+                    master master = new master();
+                    form1.SwitchUserControl(master); // switch the user to the contact page
+                    break;
                 case Form1.button5Value:
                     home back = new home();
                     form1.SwitchUserControl(back); // switch the user to the contact page
+                    break;
+                case Form1.button7Value:
+                    transfer transfer = new transfer();
+                    form1.SwitchUserControl(transfer); // switch the user to the contact page
+                    break;
+                case Form1.button8Value:
+                    international international = new international();
+                    form1.SwitchUserControl(international); // switch the user to the contact page
                     break;
                 case Form1.button9Value:
                     home home = new home();

@@ -55,7 +55,7 @@
             this.buttonRadiusLeft4.Name = "buttonRadiusLeft4";
             this.buttonRadiusLeft4.Size = new System.Drawing.Size(240, 90);
             this.buttonRadiusLeft4.TabIndex = 40;
-            this.buttonRadiusLeft4.Text = "FULL SCHOLARSHIP";
+            this.buttonRadiusLeft4.Text = "CLUBS";
             this.buttonRadiusLeft4.TextColor = System.Drawing.Color.White;
             this.buttonRadiusLeft4.UseVisualStyleBackColor = false;
             this.buttonRadiusLeft4.Click += new System.EventHandler(this.buttonRadiusLeft4_Click);
@@ -75,7 +75,7 @@
             this.buttonRadiusRight2.Name = "buttonRadiusRight2";
             this.buttonRadiusRight2.Size = new System.Drawing.Size(240, 90);
             this.buttonRadiusRight2.TabIndex = 39;
-            this.buttonRadiusRight2.Text = "MERIT SCHOLARSHIP";
+            this.buttonRadiusRight2.Text = "AUPP CENTER";
             this.buttonRadiusRight2.TextColor = System.Drawing.Color.White;
             this.buttonRadiusRight2.UseVisualStyleBackColor = false;
             this.buttonRadiusRight2.Click += new System.EventHandler(this.buttonRadiusRight2_Click);
@@ -84,21 +84,21 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(38)))), ((int)(((byte)(94)))));
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(-9, 121);
+            this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1938, 100);
+            this.panel1.Size = new System.Drawing.Size(1920, 150);
             this.panel1.TabIndex = 41;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Futura-Bold", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Futura-Bold", 50.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(868, 12);
+            this.label1.Location = new System.Drawing.Point(749, 27);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(170, 42);
+            this.label1.Size = new System.Drawing.Size(393, 90);
             this.label1.TabIndex = 35;
-            this.label1.Text = "Facilities";
+            this.label1.Text = "FACILITIES";
             // 
             // buttonRadiusRight1
             // 
@@ -115,7 +115,7 @@
             this.buttonRadiusRight1.Name = "buttonRadiusRight1";
             this.buttonRadiusRight1.Size = new System.Drawing.Size(240, 90);
             this.buttonRadiusRight1.TabIndex = 42;
-            this.buttonRadiusRight1.Text = "MERIT SCHOLARSHIP";
+            this.buttonRadiusRight1.Text = "LIBRARY";
             this.buttonRadiusRight1.TextColor = System.Drawing.Color.White;
             this.buttonRadiusRight1.UseVisualStyleBackColor = false;
             // 
@@ -134,7 +134,7 @@
             this.buttonRadiusLeft1.Name = "buttonRadiusLeft1";
             this.buttonRadiusLeft1.Size = new System.Drawing.Size(240, 90);
             this.buttonRadiusLeft1.TabIndex = 43;
-            this.buttonRadiusLeft1.Text = "FULL SCHOLARSHIP";
+            this.buttonRadiusLeft1.Text = "CANTEEN";
             this.buttonRadiusLeft1.TextColor = System.Drawing.Color.White;
             this.buttonRadiusLeft1.UseVisualStyleBackColor = false;
             // 

@@ -41,6 +41,7 @@
             this.buttonRadiusRight2 = new Ambot.ButtonRadius.ButtonRadiusRight();
             this.buttonRadiusRight1 = new Ambot.ButtonRadius.ButtonRadiusRight();
             this.buttonRadiusLeft1 = new Ambot.ButtonRadius.ButtonRadiusLeft();
+            this.pillButton1 = new Ambot.pillButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -246,10 +247,29 @@
             this.buttonRadiusLeft1.TextColor = System.Drawing.Color.White;
             this.buttonRadiusLeft1.UseVisualStyleBackColor = false;
             // 
+            // pillButton1
+            // 
+            this.pillButton1.BackColor = System.Drawing.Color.Black;
+            this.pillButton1.BackgroundColor = System.Drawing.Color.Black;
+            this.pillButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.pillButton1.BorderRadius = 20;
+            this.pillButton1.BorderSize = 0;
+            this.pillButton1.FlatAppearance.BorderSize = 0;
+            this.pillButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.pillButton1.ForeColor = System.Drawing.Color.White;
+            this.pillButton1.Image = ((System.Drawing.Image)(resources.GetObject("pillButton1.Image")));
+            this.pillButton1.Location = new System.Drawing.Point(810, 1002);
+            this.pillButton1.Name = "pillButton1";
+            this.pillButton1.Size = new System.Drawing.Size(240, 90);
+            this.pillButton1.TabIndex = 38;
+            this.pillButton1.TextColor = System.Drawing.Color.White;
+            this.pillButton1.UseVisualStyleBackColor = false;
+            // 
             // home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.pillButton1);
             this.Controls.Add(this.buttonRadiusLeft4);
             this.Controls.Add(this.buttonRadiusLeft3);
             this.Controls.Add(this.buttonRadiusLeft2);
@@ -284,5 +304,6 @@
         private ButtonRadius.ButtonRadiusLeft buttonRadiusLeft2;
         private ButtonRadius.ButtonRadiusLeft buttonRadiusLeft3;
         private ButtonRadius.ButtonRadiusLeft buttonRadiusLeft4;
+        private pillButton pillButton1;
     }
 }
