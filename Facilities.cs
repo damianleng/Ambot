@@ -45,6 +45,10 @@ namespace Ambot.Majors
 
             switch (btnValue)
             {
+                case Form1.button1Value:
+                    home home = new home();
+                    form1.SwitchUserControl(home); // switch the user to the contact page
+                    break;
                 case Form1.button5Value:
                     home back = new home();
                     form1.SwitchUserControl(back); // switch the user to the contact page

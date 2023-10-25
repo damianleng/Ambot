@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Ambot
+namespace Ambot.Majors
 {
     public partial class Facilities_2 : UserControl
     {
@@ -16,12 +16,11 @@ namespace Ambot
         {
             InitializeComponent();
         }
+
         private void Facilities_2_Load(object sender, EventArgs e)
         {
             this.Focus();
         }
-
-
         protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
         {
 
@@ -49,9 +48,14 @@ namespace Ambot
                     home home = new home();
                     form1.SwitchUserControl(home); // switch the user to the contact page
                     break;
+                case Form1.button5Value:
+                    Facilities back = new Facilities();
+                    form1.SwitchUserControl(back); // switch the user to the contact page
+                    break;
                 default:
                     break;
             }
         }
+
     }
 }

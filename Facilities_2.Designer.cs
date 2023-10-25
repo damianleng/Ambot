@@ -1,4 +1,4 @@
-﻿namespace Ambot
+﻿namespace Ambot.Majors
 {
     partial class Facilities_2
     {
