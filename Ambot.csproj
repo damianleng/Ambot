@@ -52,6 +52,36 @@
     <Compile Include="aboutUs.Designer.cs">
       <DependentUpon>aboutUs.cs</DependentUpon>
     </Compile>
+    <Compile Include="canteen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="canteen.Designer.cs">
+      <DependentUpon>canteen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="center.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="center.Designer.cs">
+      <DependentUpon>center.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clinic.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="clinic.Designer.cs">
+      <DependentUpon>clinic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="club.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="club.Designer.cs">
+      <DependentUpon>club.cs</DependentUpon>
+    </Compile>
+    <Compile Include="csi.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="csi.Designer.cs">
+      <DependentUpon>csi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Enrollment Folder\criteria.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -82,6 +112,12 @@
     <Compile Include="Facilities_2.Designer.cs">
       <DependentUpon>Facilities_2.cs</DependentUpon>
     </Compile>
+    <Compile Include="finance.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="finance.Designer.cs">
+      <DependentUpon>finance.cs</DependentUpon>
+    </Compile>
     <Compile Include="FontManager.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -106,6 +142,12 @@
     </Compile>
     <Compile Include="Enrollment Folder\international.Designer.cs">
       <DependentUpon>international.cs</DependentUpon>
+    </Compile>
+    <Compile Include="library.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="library.Designer.cs">
+      <DependentUpon>library.cs</DependentUpon>
     </Compile>
     <Compile Include="majors.cs">
       <SubType>UserControl</SubType>
@@ -274,6 +316,12 @@
     <Compile Include="Enrollment Folder\transfer.Designer.cs">
       <DependentUpon>transfer.cs</DependentUpon>
     </Compile>
+    <Compile Include="support.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="support.Designer.cs">
+      <DependentUpon>support.cs</DependentUpon>
+    </Compile>
     <Compile Include="TransparentLabel.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -285,6 +333,21 @@
     </Compile>
     <EmbeddedResource Include="aboutUs.resx">
       <DependentUpon>aboutUs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="canteen.resx">
+      <DependentUpon>canteen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="center.resx">
+      <DependentUpon>center.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clinic.resx">
+      <DependentUpon>clinic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="club.resx">
+      <DependentUpon>club.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="csi.resx">
+      <DependentUpon>csi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Enrollment Folder\criteria.resx">
       <DependentUpon>criteria.cs</DependentUpon>
@@ -298,6 +361,9 @@
     <EmbeddedResource Include="Facilities_2.resx">
       <DependentUpon>Facilities_2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="finance.resx">
+      <DependentUpon>finance.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -309,6 +375,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Enrollment Folder\international.resx">
       <DependentUpon>international.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="library.resx">
+      <DependentUpon>library.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="majors.resx">
       <DependentUpon>majors.cs</DependentUpon>
@@ -398,14 +467,14 @@
     <EmbeddedResource Include="scholarships.resx">
       <DependentUpon>scholarships.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Letters\futur.ttf" />
-    <EmbeddedResource Include="Letters\Futura Light font.ttf" />
-    <EmbeddedResource Include="Letters\Proxima Nova Font.otf" />
     <EmbeddedResource Include="AboutFolder\vmv.resx">
       <DependentUpon>vmv.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Enrollment Folder\transfer.resx">
       <DependentUpon>transfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="support.resx">
+      <DependentUpon>support.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -434,6 +503,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\aupp campus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Facilities\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

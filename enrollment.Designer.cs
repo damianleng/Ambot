@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(enrollment));
             this.buttonRadiusRight1 = new Ambot.ButtonRadius.ButtonRadiusRight();
-            this.buttonRadiusLeft1 = new Ambot.ButtonRadius.ButtonRadiusLeft();
             this.buttonRadiusRight2 = new Ambot.ButtonRadius.ButtonRadiusRight();
             this.buttonRadiusRight3 = new Ambot.ButtonRadius.ButtonRadiusRight();
             this.buttonRadiusLeft2 = new Ambot.ButtonRadius.ButtonRadiusLeft();
@@ -39,6 +38,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pillButton1 = new Ambot.pillButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -63,25 +63,6 @@
             this.buttonRadiusRight1.Text = "BACK";
             this.buttonRadiusRight1.TextColor = System.Drawing.Color.White;
             this.buttonRadiusRight1.UseVisualStyleBackColor = false;
-            // 
-            // buttonRadiusLeft1
-            // 
-            this.buttonRadiusLeft1.BackColor = System.Drawing.Color.Black;
-            this.buttonRadiusLeft1.BackgroundColor = System.Drawing.Color.Black;
-            this.buttonRadiusLeft1.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.buttonRadiusLeft1.BorderRadius = 20;
-            this.buttonRadiusLeft1.BorderSize = 0;
-            this.buttonRadiusLeft1.FlatAppearance.BorderSize = 0;
-            this.buttonRadiusLeft1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonRadiusLeft1.Font = new System.Drawing.Font("Proxima Nova Rg", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonRadiusLeft1.ForeColor = System.Drawing.Color.White;
-            this.buttonRadiusLeft1.Image = ((System.Drawing.Image)(resources.GetObject("buttonRadiusLeft1.Image")));
-            this.buttonRadiusLeft1.Location = new System.Drawing.Point(1685, 990);
-            this.buttonRadiusLeft1.Name = "buttonRadiusLeft1";
-            this.buttonRadiusLeft1.Size = new System.Drawing.Size(240, 90);
-            this.buttonRadiusLeft1.TabIndex = 35;
-            this.buttonRadiusLeft1.TextColor = System.Drawing.Color.White;
-            this.buttonRadiusLeft1.UseVisualStyleBackColor = false;
             // 
             // buttonRadiusRight2
             // 
@@ -199,16 +180,34 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // pillButton1
+            // 
+            this.pillButton1.BackColor = System.Drawing.Color.Black;
+            this.pillButton1.BackgroundColor = System.Drawing.Color.Black;
+            this.pillButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.pillButton1.BorderRadius = 20;
+            this.pillButton1.BorderSize = 0;
+            this.pillButton1.FlatAppearance.BorderSize = 0;
+            this.pillButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.pillButton1.ForeColor = System.Drawing.Color.White;
+            this.pillButton1.Image = ((System.Drawing.Image)(resources.GetObject("pillButton1.Image")));
+            this.pillButton1.Location = new System.Drawing.Point(810, 1002);
+            this.pillButton1.Name = "pillButton1";
+            this.pillButton1.Size = new System.Drawing.Size(240, 90);
+            this.pillButton1.TabIndex = 39;
+            this.pillButton1.TextColor = System.Drawing.Color.White;
+            this.pillButton1.UseVisualStyleBackColor = false;
+            // 
             // enrollment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.pillButton1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.buttonRadiusLeft3);
             this.Controls.Add(this.buttonRadiusLeft2);
             this.Controls.Add(this.buttonRadiusRight3);
             this.Controls.Add(this.buttonRadiusRight2);
-            this.Controls.Add(this.buttonRadiusLeft1);
             this.Controls.Add(this.buttonRadiusRight1);
             this.Name = "enrollment";
             this.Size = new System.Drawing.Size(1920, 1080);
@@ -223,7 +222,6 @@
         #endregion
 
         private ButtonRadius.ButtonRadiusRight buttonRadiusRight1;
-        private ButtonRadius.ButtonRadiusLeft buttonRadiusLeft1;
         private ButtonRadius.ButtonRadiusRight buttonRadiusRight2;
         private ButtonRadius.ButtonRadiusRight buttonRadiusRight3;
         private ButtonRadius.ButtonRadiusLeft buttonRadiusLeft2;
@@ -232,5 +230,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private pillButton pillButton1;
     }
 }

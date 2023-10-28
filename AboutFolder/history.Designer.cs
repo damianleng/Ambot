@@ -36,6 +36,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pillButton1 = new Ambot.pillButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -121,10 +122,29 @@
             this.pictureBox1.TabIndex = 40;
             this.pictureBox1.TabStop = false;
             // 
+            // pillButton1
+            // 
+            this.pillButton1.BackColor = System.Drawing.Color.Black;
+            this.pillButton1.BackgroundColor = System.Drawing.Color.Black;
+            this.pillButton1.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.pillButton1.BorderRadius = 20;
+            this.pillButton1.BorderSize = 0;
+            this.pillButton1.FlatAppearance.BorderSize = 0;
+            this.pillButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.pillButton1.ForeColor = System.Drawing.Color.White;
+            this.pillButton1.Image = ((System.Drawing.Image)(resources.GetObject("pillButton1.Image")));
+            this.pillButton1.Location = new System.Drawing.Point(810, 1002);
+            this.pillButton1.Name = "pillButton1";
+            this.pillButton1.Size = new System.Drawing.Size(240, 90);
+            this.pillButton1.TabIndex = 41;
+            this.pillButton1.TextColor = System.Drawing.Color.White;
+            this.pillButton1.UseVisualStyleBackColor = false;
+            // 
             // history
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.pillButton1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.label3);
@@ -151,5 +171,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private pillButton pillButton1;
     }
 }

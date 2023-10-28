@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Ambot.Majors
+namespace Ambot
 {
     public partial class Facilities_2 : UserControl
     {
@@ -47,6 +47,22 @@ namespace Ambot.Majors
                 case Form1.button1Value:
                     home home = new home();
                     form1.SwitchUserControl(home); // switch the user to the contact page
+                    break;
+                case Form1.button3Value:
+                    finance finance = new finance();
+                    form1.SwitchUserControl(finance); // switch the user to the contact page
+                    break;
+                case Form1.button4Value:
+                    support support = new support();
+                    form1.SwitchUserControl(support); // switch the user to the contact page
+                    break;
+                case Form1.button7Value:    
+                    csi csi = new csi();
+                    form1.SwitchUserControl(csi); // switch the user to the contact page
+                    break;
+                case Form1.button8Value:
+                    clinic clinic = new clinic();
+                    form1.SwitchUserControl(clinic); // switch the user to the contact page
                     break;
                 case Form1.button5Value:
                     Facilities back = new Facilities();

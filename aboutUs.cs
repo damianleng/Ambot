@@ -58,7 +58,7 @@ namespace Ambot
                     vmv vmv = new vmv();
                     form1.SwitchUserControl(vmv); // switch the user to the contact page
                     break;
-                case Form1.button9Value:
+                case Form1.button1Value:
                     home home = new home();
                     form1.SwitchUserControl(home); // switch the user to the contact page
                     break;
