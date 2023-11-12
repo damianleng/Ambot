@@ -1,0 +1,14 @@
+C:\Users\Admin\Downloads\Compressed\Ambot-Json\Ambot-Json\bin\Debug\Ambot-Json.exe.config
+C:\Users\Admin\Downloads\Compressed\Ambot-Json\Ambot-Json\bin\Debug\Ambot-Json.exe
+C:\Users\Admin\Downloads\Compressed\Ambot-Json\Ambot-Json\bin\Debug\Ambot-Json.pdb
+C:\Users\Admin\Downloads\Compressed\Ambot-Json\Ambot-Json\obj\Debug\Ambot-Json.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\Compressed\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.Properties.Resources.resources
+C:\Users\Admin\Downloads\Compressed\Ambot-Json\Ambot-Json\obj\Debug\Ambot-Json.csproj.GenerateResource.cache
+C:\Users\Admin\Downloads\Compressed\Ambot-Json\Ambot-Json\obj\Debug\Ambot-Json.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\Compressed\Ambot-Json\Ambot-Json\obj\Debug\Ambot-Json.csproj.CopyComplete
+C:\Users\Admin\Downloads\Compressed\Ambot-Json\Ambot-Json\obj\Debug\Ambot-Json.exe
+C:\Users\Admin\Downloads\Compressed\Ambot-Json\Ambot-Json\obj\Debug\Ambot-Json.pdb
+C:\Users\Admin\Downloads\Compressed\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.mainPanel.resources
+C:\Users\Admin\Downloads\Compressed\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout1.resources
+C:\Users\Admin\Downloads\Compressed\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout2.resources
+C:\Users\Admin\Downloads\Compressed\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout3.resources

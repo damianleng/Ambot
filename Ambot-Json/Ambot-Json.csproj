@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{225015CC-CA3F-4924-BDDF-D187B87C958A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Ambot_Json</RootNamespace>
+    <AssemblyName>Ambot-Json</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomButton\ButtonRadiusRight.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomButton\ButtonFullRadius.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomButton\ButtonRadiusLeft.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImageLoader.cs" />
+    <Compile Include="JsonObject.cs" />
+    <Compile Include="PageLayout1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PageLayout1.Designer.cs">
+      <DependentUpon>PageLayout1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PageLayout2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PageLayout2.Designer.cs">
+      <DependentUpon>PageLayout2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PageLayout3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PageLayout3.Designer.cs">
+      <DependentUpon>PageLayout3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PageLayout1.resx">
+      <DependentUpon>PageLayout1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PageLayout2.resx">
+      <DependentUpon>PageLayout2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PageLayout3.resx">
+      <DependentUpon>PageLayout3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="bin\Debug\Ambot.json" />
+    <None Include="bin\Debug\Ambot-Json.exe.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Ambot-Json.exe" />
+    <Content Include="bin\Debug\Ambot-Json.pdb" />
+    <Content Include="bin\Debug\Newtonsoft.Json.dll" />
+    <Content Include="bin\Debug\Newtonsoft.Json.xml" />
+    <Content Include="bin\Debug\Resources\Ambot-images\AUppcenter.png" />
+    <Content Include="bin\Debug\Resources\Ambot-images\banners\enrollment-banner.png" />
+    <Content Include="bin\Debug\Resources\Ambot-images\banners\majors-banner.png" />
+    <Content Include="bin\Debug\Resources\Ambot-images\banners\scholarship-banner.png" />
+    <Content Include="bin\Debug\Resources\Ambot-images\Business.png" />
+    <Content Include="bin\Debug\Resources\Ambot-images\Canteen.png" />
+    <Content Include="bin\Debug\Resources\Ambot-images\Cloudcomputing.png" />
+    <Content Include="bin\Debug\Resources\Ambot-images\clubs.png" />
+    <Content Include="bin\Debug\Resources\Ambot-images\cs.itm.png" />
+    <Content Include="bin\Debug\Resources\Ambot-images\CSI.png" />
+    <Content Include="bin\Debug\Resources\Ambot-images\Cyber.png" />
+    <Content Include="bin\Debug\Resources\Ambot-images\FinanceOffice.png" />
+    <Content Include="bin\Debug\Resources\Ambot-images\Globalaffairs.png" />
+    <Content Include="bin\Debug\Resources\Ambot-images\ict.png" />
+    <Content Include="bin\Debug\Resources\Ambot-images\InformationTechnology.png" />
+    <Content Include="bin\Debug\Resources\Ambot-images\ItSUPPORT.png" />
+    <Content Include="bin\Debug\Resources\Ambot-images\Law.png" />
+    <Content Include="bin\Debug\Resources\Ambot-images\legalstudies.png" />
+    <Content Include="bin\Debug\Resources\Ambot-images\library.png" />
+    <Content Include="bin\Debug\Resources\Ambot-images\medicalclinic.png" />
+    <Content Include="bin\Debug\Resources\Ambot-images\SD.png" />
+    <Content Include="bin\Debug\Resources\arizona logo.png" />
+    <Content Include="bin\Debug\Resources\arrow.png" />
+    <Content Include="bin\Debug\Resources\aupp campus.png" />
+    <Content Include="bin\Debug\Resources\AUPP_Logo.png" />
+    <Content Include="bin\Debug\Resources\back.png" />
+    <Content Include="bin\Debug\Resources\Fort_Hays_State_Tigers_logo.svg.png" />
+    <Content Include="bin\Debug\Resources\home.png" />
+    <Content Include="bin\Debug\Resources\HomeAboutUs1.png" />
+    <Content Include="bin\Debug\Resources\HomeAboutUs2.png" />
+    <Content Include="bin\Debug\Resources\HomeAboutUs3.png" />
+    <Content Include="bin\Debug\Resources\left-arrow.png" />
+    <Content Include="bin\Debug\Resources\right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
