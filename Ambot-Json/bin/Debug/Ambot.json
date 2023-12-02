@@ -7,13 +7,13 @@
         "buttonText": {
           "1": "",
           "2": "ABOUT US",
-          "3": "NEWS & EVENTS",
+          "3": "NEWS && EVENTS",
           "4": "MAJORS",
           "5": "SCHOLARSHIPS",
           "6": "ENROLLMENTS",
           "7": "PARTNERSHIPS",
           "8": "FACILITIES",
-          "9": "MAPS"
+          "9": ""
         },
         "buttonNav": {
           "1": "",
@@ -21,25 +21,20 @@
           "3": "NewsEvents",
           "4": "MajorsPage",
           "5": "ScholarshipsPage",
-          "6": "EnrollmentsPage",
-          "7": "PartnershipsPage",
+          "6": "EnrollmentPage",
+          "7": "PartnershipPage",
           "8": "Facilities_1Page",
-          "9": "Mapspage"
+          "9": ""
         }
       },
       "Contents": {
-        "logo": "Resources/AUPP_Logo.png",
-        "title": "Welcome to AUPP!",
-        "description1": "Hello, there. I'm AMBot short for Aupp Marketing Bot. I'm here today to provide neccessary information about our campus to you. I hope you enjoy this new chapter of life in our university.",
-        "instruction": "Click the buttons on the side to proceed"
+        "logo": "resources/AUPP_Logo.png"
       },
       "Avatar": {
-        "avatar_image": "image.png",
-        "bubble_text1": "",
-        "bubble_text2": ""
+        "avatar_image": "resources/eaglesimages/normaleagle.png",
+        "bubble_text1": "What would you like to know?\nClick the buttons on the sides to pick!"
       }
     },
-
 
     "AboutUsPage": {
       "PageNav": "PageLayout2",
@@ -48,7 +43,7 @@
           "1": "HOME",
           "2": "",
           "3": "OVERVIEW",
-          "4": "MISSION",
+          "4": "VISION (VMV)",
           "5": "BACK",
           "6": "",
           "7": "",
@@ -57,9 +52,9 @@
         },
         "buttonNav": {
           "1": "HomePage",
-          "2": "OverviewPage",
-          "3": "MissionPage",
-          "4": "",
+          "2": "",
+          "3": "OverviewPage",
+          "4": "MissionPage",
           "5": "HomePage",
           "6": "",
           "7": "",
@@ -68,15 +63,14 @@
         }
       },
       "Contents": {
-        "image1": "Resources/HomeAboutUs1.png",
-        "image2": "Resources/aupp campus.png",
+        "image1": "resources/aboutUs_1.png",
+        "image2": "resources/aboutUs_2.png",
         "title": "About Us",
-        "subtitle1": "Welcome all Eagles and Tigers",
-        "subtitle2": "American University of Phnom Penh"
+        "subtitle1": "Welcome all Eagles and Tigers"
       },
       "Avatar": {
-        "avatar_image": "image.png",
-        "bubble_text1": ""
+        "avatar_image": "resources/eaglesimages/flippedeagle.png",
+        "bubble_text1": "Learn about AUPP and our mission for your success!"
       }
     },
 
@@ -107,7 +101,7 @@
         }
       },
       "Contents": {
-        "image1": "Resources/aupp campus.png",
+        "image1": "resources/overview.png",
         "title": "Overview",
         "subtitle1": "About AUPP:",
         "description1": "The American University of Phnom Penh (AUPP) is a private Cambodian university with an American curriculum, founded in 2013. It is based on the principles of high-quality management, faculty with terminal degrees from the US or other western countries, an undergraduate curriculum that meets US accreditation requirements, and the recruitment of students who aspire to high levels of achievement."
@@ -141,8 +135,8 @@
         }
       },
       "Contents": {
-        "image1": "Resources/aupp campus.png",
-        "title": "Mission-Value-Vision",
+        "image1": "resources/vision.png",
+        "title": "Vision Mission Value",
         "subtitle1": "Mission:",
         "description1": "To be a leading center of academic excellence in Cambodia and in Asia.",
         "subtitle2": "Value:",
@@ -153,7 +147,7 @@
     },
 
     "NewsEvents": {
-      "PageNav": "",
+      "PageNav": "PageLayout4",
       "Button": {
         "buttonText": {
           "1": "HOME",
@@ -163,78 +157,6 @@
           "5": "BACK",
           "6": "",
           "7": "",
-          "8": "",
-          "9": ""
-        },
-        "buttonNav": {
-          "1": "HomePage",
-          "2": "",
-          "3": "",
-          "4": "",
-          "5": "HomPage",
-          "6": "",
-          "7": "",
-          "8": "",
-          "9": ""
-        }
-      },
-      "Contents": {
-        "title": "Events",
-        "QR_image": ""
-      },
-      "Avatar": {
-        "avatar_image": "image.png",
-        "bubble_text": ""
-      }
-    },
-
-    "PartnershipPage": {
-      "PageNav": "",
-      "Button": {
-        "buttonText": {
-          "1": "HOME",
-          "2": "",
-          "3": "",
-          "4": "",
-          "5": "BACK",
-          "6": "",
-          "7": "",
-          "8": "",
-          "9": ""
-        },
-        "buttonNav": {
-          "1": "HomePage",
-          "2": "",
-          "3": "",
-          "4": "",
-          "5": "HomPage",
-          "6": "",
-          "7": "",
-          "8": "",
-          "9": ""
-        }
-      },
-      "Contents": {
-        "image1": "image.png",
-        "subtitle1": "University of Arizona",
-        "descripton1": "The University of Arizona is a public research university in Tucson, Arizona, United States. Founded in 1885, the UA was the first university in the Arizona Territory. The university is home to the James E. Rogers College of Law and numerous other nationally ranked graduate and professional schools. As of Fall 2015, enrollment was more than 42,100 students, with the largest freshmen class ever at 8,100 students. The mission of the University of Arizona is, “To improve the prospects and enrich the lives of the people of Arizona and the world through education, research, creative expression, and community and business partnerships.” Arizona is one of the elected members of the Association of American Universities (an organization of North America’s premier research institutions) and is the only representative from the state of Arizona to this group.",
-        "image2": "image.png",
-        "subtitle2": "Fort Hays State University",
-        "descripton2": "FHSU is the leading forward-thinking, entrepreneurial university of the Midwest. FHSU  has an enrollment of more than 13,000 students and offers hundreds of certificate and degree programs at the associate’s, bachelor’s, and master’s levels through 28 academic departments. The university attracts goal-oriented students who want premier learning opportunities both inside and outside the classroom combined with extraordinary one-to-one attention and support."
-      }
-    },
-
-    "ScholarshipsPage": {
-      "PageNav": "",
-      "Button": {
-        "buttonText": {
-          "1": "HOME",
-          "2": "",
-          "3": "",
-          "4": "",
-          "5": "BACK",
-          "6": "FULL SCHOLARSHIP",
-          "7": "MERIT SCHOLARSHIP",
           "8": "",
           "9": ""
         },
@@ -244,23 +166,59 @@
           "3": "",
           "4": "",
           "5": "HomePage",
-          "6": "FullScholarshipsPage",
-          "7": "MeritPage",
+          "6": "",
+          "7": "",
           "8": "",
           "9": ""
         }
       },
       "Contents": {
-        "image1": "resources/scholarship-banner.png",
-        "title": "Scholarships"
+        "title": "Events",
+        "QR_image": "resources/qr/qr-codeEvent.png"
       },
       "Avatar": {
-        "avatar_image": "image.png",
-        "bubble_text": ""
+        "avatar_image": "resources/eaglesimages/megaphoneeagle.png",
+        "bubble_text1": "Want to know what is happening at AUPP?\n Scan here!"
       }
     },
+
+    "ScholarshipsPage": {
+      "PageNav": "PageLayout5",
+      "Button": {
+        "buttonText": {
+          "1": "HOME",
+          "2": "FULL SCHOLARSHIP",
+          "3": "MERIT SCHOLARSHIP",
+          "4": "",
+          "5": "BACK",
+          "6": "",
+          "7": "",
+          "8": "",
+          "9": ""
+        },
+        "buttonNav": {
+          "1": "HomePage",
+          "2": "FullScholarshipsPage",
+          "3": "MeritPage",
+          "4": "",
+          "5": "HomePage",
+          "6": "",
+          "7": "",
+          "8": "",
+          "9": ""
+        }
+      },
+      "Contents": {
+        "image": "resources/banner/scholarship_banner.png"
+      },
+      "Avatar": {
+        "avatar_image": "resources/eaglesimages/graduationeagle.png",
+        "bubble_text1": "What scholarships do we offer? \n\nPress Button to find out!"
+      }
+    },
+
     "MeritPage": {
-      "PageNav": "",
+      "PageNav": "PageLayout8",
       "Button": {
         "buttonText": {
           "1": "HOME",
@@ -286,21 +244,17 @@
         }
       },
       "Contents": {
-        "title": "Merit Scholarship",
-        "subtitle1": "Merit Scholarship (Single and Dual Degree)",
-        "image1": "image.png",
+        "title": "MERIT SCHOLARSHIP",
+        "subtitle1": "Merit Scholarships\n(Single and Dual Degree)",
+        "image1": "resources/merit.png",
         "description1": "Merit scholarships are automatically awarded to applicants who complete the national exam with grades A and B.",
-        "QR_image": "image.png",
+        "QR_image": "resources/qr/qr-codeMerit+Full Scholarship.png",
         "QR_description": "Scan QR for more Information"
-      },
-      "Avatar": {
-        "avatar_image": "image.png",
-        "bubble_text": ""
       }
     },
 
     "FullScholarshipsPage": {
-      "PageNav": "",
+      "PageNav": "PageLayout8",
       "Button": {
         "buttonText": {
           "1": "HOME",
@@ -326,22 +280,23 @@
         }
       },
       "Contents": {
-        "title": "Merit Scholarship",
-        "subtitle1": "Merit Scholarship (Single and Dual Degree)",
-        "image1": "image.png",
+        "title": "FULL SCHOLARSHIP",
+        "subtitle1": "Full Scholarships\n(Single Degree Only)",
+        "image1": "resources/full.png",
         "description1": "Full scholarships are awarded to grade A students admitted into our single degree programs. Here are the steps to follow:",
-        "QR_image": "image.png",
+        "QR_image": "resources/qr/qr-codeMerit+Full Scholarship.png",
         "QR_description": "Scan QR for more Information"
       }
     },
+
     "EnrollmentPage": {
-      "PageNav": "",
+      "PageNav": "PageLayout5",
       "Button": {
         "buttonText": {
           "1": "HOME",
           "2": "ADMISSION",
           "3": "TRANSFER",
-          "4": "INTERNATION STTUDENTS",
+          "4": "INTERNATIONAL STUDENTS",
           "5": "BACK",
           "6": "",
           "7": "",
@@ -361,16 +316,16 @@
         }
       },
       "Contents": {
-        "image1": "resources/enrollment-banner.png"
+        "image": "resources/banner/enrollment_banner.png"
       },
       "Avatar": {
-        "image1": "",
-        "bubble_text": ""
+        "avatar_image": "resources/eaglesimages/graduationeagle.png",
+        "bubble_text1": "Want to enroll?\n\nTry one of those buttons to the left!"
       }
     },
 
     "BachelorAdmPage": {
-      "PageNav": "",
+      "PageNav": "PageLayout9",
       "Button": {
         "buttonText": {
           "1": "HOME",
@@ -381,7 +336,7 @@
           "6": "",
           "7": "",
           "8": "",
-          "9": "Master Admission"
+          "9": "Next"
         },
         "buttonNav": {
           "1": "HomePage",
@@ -396,19 +351,19 @@
         }
       },
       "Contents": {
-        "image": "resources/bachelor-admission.png",
+        "image1": "resources/bachelor_admission.png",
         "title": "Bachelor's Admission",
         "subtitle1": "Admission Process",
-        "step1": "Pay the $35 application fee ",
-        "step2": "Schedule or waive the English Placement Test ",
-        "step3": "Collect & Submit all required documents",
-        "QR_image": "",
+        "description1": "Pay the $35 application fee ",
+        "description2": "Schedule or waive the English Placement Test ",
+        "description3": "Collect & Submit all required documents",
+        "QR_image": "resources/qr/qr-codeBachelorAdmission.png",
         "QR_description": "Scan QR for more Information"
       }
     },
 
     "MasterAdmPage": {
-      "PageNav": "",
+      "PageNav": "PageLayout9",
       "Button": {
         "buttonText": {
           "1": "HOME",
@@ -426,7 +381,7 @@
           "2": "",
           "3": "",
           "4": "",
-          "5": "EnrollmentPage",
+          "5": "BachelorAdmPage",
           "6": "",
           "7": "",
           "8": "",
@@ -434,20 +389,20 @@
         }
       },
       "Contents": {
-        "image": "resources/bachelor-admission.png",
+        "image1": "resources/master_admission.png",
         "title": "Master’s Admission",
         "subtitle1": "Admission Process for MBA / LLM / MLS",
-        "step1": "Pay the $35 application fee ",
-        "step2": "Schedule or waive the English Placement Test ",
-        "step3": "Collect & Submit all required documents",
-        "step4": "Interview ",
-        "QR_image": "",
+        "description1": "Pay the $35 application fee ",
+        "description2": "Schedule or waive the English Placement Test ",
+        "description3": "Collect & Submit all required documents",
+        "description4": "Interview",
+        "QR_image": "resources/qr/qr-codeBachelorAdmission.png",
         "QR_description": "Scan QR for more Information"
       }
     },
 
     "TransferAdmPage": {
-      "PageNav": "",
+      "PageNav": "PageLayout10",
       "Button": {
         "buttonText": {
           "1": "HOME",
@@ -473,18 +428,64 @@
         }
       },
       "Contents": {
-        "image1": "resources/transfer-banner.png",
+        "image1": "resources/banner/transfer_banner.png",
         "title1": "Step 1:",
         "subtitle1": "Complete Admission Process",
+        "description1": "Follow the Bachelor's Admission",
         "title2": "Step 2:",
-        "subtitle2": "Collect & Send Official Transripts",
+        "subtitle2": "Collect && Send Official Transcripts",
+        "description2": "Send official transcripts to\n\n admission@aupp.edu.kh",
         "title3": "Step 3:",
-        "subtitle3": ""
+        "subtitle3": "Collect && Send Syllabi for All Courses",
+        "description3": "Send syllabi for all courses listed on the transcripts that you sent us via\n\n admissions@aupp.edu.kh"
+
       }
     },
 
     "InternationalAdmPage": {
-      "PageNav": "",
+      "PageNav": "PageLayout11",
+      "Button": {
+        "buttonText": {
+          "1": "HOME",
+          "2": "",
+          "3": "",
+          "4": "",
+          "5": "BACK",
+          "6": "",
+          "7": "",
+          "8": "",
+          "9": "Post Program"
+        },
+        "buttonNav": {
+          "1": "HomePage",
+          "2": "",
+          "3": "",
+          "4": "",
+          "5": "EnrollmentPage",
+          "6": "",
+          "7": "",
+          "8": "",
+          "9": "InternationalAdmPagePost"
+        }
+      },
+      "Contents": {
+        "image1": "resources/banner/international_banner.png",
+        "title1": "Undergraduate Program",
+        "subtitle1": "Admission Processes",
+        "description1": "Pay the $35 application fee",
+        "description2": "Submit document & proof of English Proficiency",
+        "description3": "Collect & Submit all required documents",
+        "subtitle2": "Admission Criteria",
+        "description4": "1. Proof of Identity: You must submit copy of passport",
+        "description5": "2. Proof of High School Graduation",
+        "description6": "3. Proof of English Proficiency",
+        "QR_image": "resources/qr/qr-codeInternationalStudent.png",
+        "QR_description": "Scan QR for more Information"
+      }
+    },
+
+    "InternationalAdmPagePost": {
+      "PageNav": "PageLayout11",
       "Button": {
         "buttonText": {
           "1": "HOME",
@@ -502,7 +503,7 @@
           "2": "",
           "3": "",
           "4": "",
-          "5": "EnrollmentPage",
+          "5": "InternationalAdmPage",
           "6": "",
           "7": "",
           "8": "",
@@ -510,18 +511,25 @@
         }
       },
       "Contents": {
-        "image1": "resources/transfer-banner.png",
-        "title1": "Step 1:",
-        "subtitle1": "Complete Admission Process",
-        "title2": "Step 2:",
-        "subtitle2": "Collect & Send Official Transripts",
-        "title3": "Step 3:",
-        "subtitle3": ""
+        "image1": "resources/banner/international_banner.png",
+        "title1": "Post-Graduate Program",
+        "subtitle1": "Admission Processes (MBA)",
+        "description1": "Pay the $35 application fee",
+        "description2": "Submit document & proof of English Proficiency",
+        "description3": "Wait for the interview",
+        "subtitle2": "Admission Requirement (MBA)",
+        "description4": "1. Minimum of a 3.0 GPA based on a 4.0 scale",
+        "description5": "2. Two years of working experience",
+        "description6": "3. IELTS 6.0 or a TOEFL iBT at least 79 or higher",
+        "description7": "4. To schedule the test and learn about the EPT",
+        "description8": "5. Document: Copy of Passport, Earned bachelor’s degree, Unofficial Transcript, CV, and Personal Statement",
+        "QR_image": "resources/qr/qr-codeInternationalStudent.png",
+        "QR_description": "Scan QR for more Information"
       }
     },
 
     "MajorsPage": {
-      "PageNav": "",
+      "PageNav": "PageLayout5",
       "Button": {
         "buttonText": {
           "1": "HOME",
@@ -547,16 +555,16 @@
         }
       },
       "Contents": {
-        "image": "image.png"
+        "image": "resources/banner/majors_banner.png"
       },
       "Avatar": {
-        "image": "",
-        "bubble_text1": "Here at AUPP, we have many programs. Click the buttons to explore"
+        "avatar_image": "resources/eaglesimages/graduationeagle.png",
+        "bubble_text1": "Here at AUPP, we have many programs.\nClick the buttons to explore"
       }
     },
 
     "SinglePage": {
-      "PageNav": "",
+      "PageNav": "PageLayout6",
       "Button": {
         "buttonText": {
           "1": "HOME",
@@ -574,7 +582,7 @@
           "2": "",
           "3": "",
           "4": "",
-          "5": "MajorPage",
+          "5": "MajorsPage",
           "6": "",
           "7": "",
           "8": "",
@@ -583,21 +591,21 @@
       },
       "Contents": {
         "title": "Bachelor Degree (Single Program)",
-        "image1": "image.png",
+        "image1": "resources/banner/IT_banner.png",
         "description1": "Design, develop, and implement computer-based information systems for businesses and organizations.",
-        "image2": "image.png",
+        "image2": "resources/banner/business_banner.png",
         "description2": "Develop expertise in computer systems and quantitative modeling techniques to solve business problems and make managerial decisions.",
-        "image3": "image.png",
+        "image3": "resources/banner/global_banner.png",
         "description3": "Gain a broad understanding of the political, economic, and social issues that shape the world today.",
-        "image4": "image.png",
+        "image4": "resources/banner/law_banner.png",
         "description4": "Prepare for a career in law by gaining a comprehensive understanding of the legal system and its workings.",
-        "QR_image": "",
-        "QR_description": ""
+        "QR_image": "resources/qr/qr-codeSingle+Dual.png",
+        "QR_description": "Please scan this for more info: "
       }
     },
 
     "DualPage": {
-      "PageNav": "",
+      "PageNav": "PageLayout6",
       "Button": {
         "buttonText": {
           "1": "HOME",
@@ -615,7 +623,7 @@
           "2": "",
           "3": "",
           "4": "",
-          "5": "MajorPage",
+          "5": "MajorsPage",
           "6": "",
           "7": "",
           "8": "",
@@ -624,19 +632,19 @@
       },
       "Contents": {
         "title": "Bachelor Degree (Dual Program)",
-        "image1": "image.png",
+        "image1": "resources/banner/IT_banner.png",
         "description1": "AUPP’s School of Digital Technologies is dedicated to Digital Infrastructure, Software Development, Cybersecurity, Data Science, and AI.",
-        "image2": "image.png",
+        "image2": "resources/banner/business_banner.png",
         "description2": "AUPP’s School of Business provides unparalleled opportunities to study business, whether you aspire to start your own business, work for a multinational corporation, or contribute to the economic development of Cambodia and beyond.",
-        "image3": "image.png",
+        "image3": "resources/banner/law&global_banner.png",
         "description3": "AUPP School of Law and Global Affairs provide students with a comprehensive education that prepares them for careers in international relations, global development, diplomacy, law, and related fields.",
-        "QR_image": "",
-        "QR_description": ""
+        "QR_image": "resources/qr/qr-codeSingle+Dual.png",
+        "QR_description": "Please scan this for more info: "
       }
     },
 
     "MasterPage": {
-      "PageNav": "",
+      "PageNav": "PageLayout6",
       "Button": {
         "buttonText": {
           "1": "HOME",
@@ -654,7 +662,7 @@
           "2": "",
           "3": "",
           "4": "",
-          "5": "MajorPage",
+          "5": "MajorsPage",
           "6": "",
           "7": "",
           "8": "",
@@ -662,20 +670,58 @@
         }
       },
       "Contents": {
-        "title": "Bachelor Degree (Dual Program)",
-        "image1": "image.png",
+        "title": "Master Degree",
+        "image1": "resources/banner/legal_banner.png",
         "description1": "In today’s world affairs and economy that is adapting to rapid developments in digital technologies, corporations, governments, and society as a whole are navigating an evolving global environment.",
-        "image2": "image.png",
+        "image2": "resources/banner/business_banner.png",
         "description2": "The Master of Business Administration (MBA) prepares students with the practical skills and academic knowledgebase that are essential for meaningful business and managerial careers.",
-        "image3": "image.png",
+        "image3": "resources/banner/law_banner.png",
         "description3": "The Master of Laws (LL.M.) program aims to provide (1) a broad overview of local and international laws and regulations that govern international businesses and (2) engage students in the ongoing discussions on issues related to the use and regulation of digital technologies.",
-        "QR_image": "",
-        "QR_description": ""
+        "QR_image": "resources/qr/qr-codeMaster.png",
+        "QR_description": "Scan this QR for more info:"
+      }
+    },
+
+    "PartnershipPage": {
+      "PageNav": "PageLayout12",
+      "Button": {
+        "buttonText": {
+          "1": "HOME",
+          "2": "",
+          "3": "",
+          "4": "",
+          "5": "BACK",
+          "6": "",
+          "7": "",
+          "8": "",
+          "9": ""
+        },
+        "buttonNav": {
+          "1": "HomePage",
+          "2": "",
+          "3": "",
+          "4": "",
+          "5": "HomePage",
+          "6": "",
+          "7": "",
+          "8": "",
+          "9": ""
+        }
+      },
+      "Contents": {
+        "title": "Partnership",
+        "image3": "Resources/banner/partnership_banner.png",
+        "image1": "Resources/Arizona_Logo.png",
+        "subtitle1": "University of Arizona",
+        "description1": "The University of Arizona is a public research university in Tucson, Arizona, United States. Founded in 1885, the UA was the first university in the Arizona Territory. The university is home to the James E. Rogers College of Law and numerous other nationally ranked graduate and professional schools.",
+        "image2": "resources/Fort_Hays_logo.png",
+        "subtitle2": "Fort Hays State University",
+        "description2": "FHSU is the leading forward-thinking, entrepreneurial university of the Midwest. FHSU  has an enrollment of more than 13,000 students and offers hundreds of certificate and degree programs at the associate’s, bachelor’s, and master’s levels through 28 academic departments."
       }
     },
 
     "Facilities_1Page": {
-      "PageNav": "",
+      "PageNav": "PageLayout13",
       "Button": {
         "buttonText": {
           "1": "HOME",
@@ -686,7 +732,7 @@
           "6": "",
           "7": "CLUBS",
           "8": "CANTEEN",
-          "9": "NEXT"
+          "9": "OTHER"
         },
         "buttonNav": {
           "1": "HomePage",
@@ -702,19 +748,19 @@
       },
       "Contents": {
         "title": "Facilities",
-        "image1": "image.png",
+        "image1": "resources/AUpp_center.png",
         "subtitle1": "AUPP CENTER",
-        "image2": "image.png",
-        "subtitle2": "LIBRARY",
-        "image3": "image.png",
-        "subtitle3": "CLUBS",
-        "image4": "image.png",
+        "image2": "resources/clubs.png",
+        "subtitle2": "CLUBS",
+        "image3": "resources/library.png",
+        "subtitle3": "LIBRARY",
+        "image4": "resources/Canteen.png",
         "subtitle4": "CANTEEN"
       }
     },
 
     "ATCPage": {
-      "PageNav": "",
+      "PageNav": "PageLayout14",
       "Button": {
         "buttonText": {
           "1": "HOME",
@@ -741,13 +787,17 @@
       },
       "Contents": {
         "title": "AUPP CENTER",
-        "image1": "image.png",
+        "image1": "resources/atc.png",
         "subtitle1": "AUPP Technology Center (ATC)",
         "description1": "The AUPP Technology Center is the launchpad for Cambodia's entrepreneurs and innovators in digital technology, offering education, engagement, and empowerment. We educate the next generation in management, leadership, and information communication technology, while fostering a results-oriented approach in our engagements with stakeholders. Through training, resources, and networks, we empower young talent, creating a platform for digital and sustainability leadership, and professional skills transformation for Cambodia."
+      },
+      "Avatar": {
+        "avatar_image": "resources/eaglesimages/laptopeagle.png"
       }
     },
+
     "LibraryPage": {
-      "PageNav": "",
+      "PageNav": "PageLayout14",
       "Button": {
         "buttonText": {
           "1": "HOME",
@@ -774,13 +824,17 @@
       },
       "Contents": {
         "title": "LIBRARY",
-        "image1": "image.png",
+        "image1": "resources/librarypic.png",
         "subtitle1": "AUPP Library",
         "description1": "The AUPP Library is a vibrant hub of knowledge and learning, offering a wide range of resources to support the academic and intellectual pursuits of our students and faculty. With an extensive collection of books, journals, and digital materials, our library provides an enriching environment for research, study, and exploration. Our friendly and knowledgeable staff are always ready to assist, making the library a welcoming space for discovery and growth."
+
+      },
+      "Avatar": {
+        "avatar_image": "resources/eaglesimages/book.png"
       }
     },
     "ClubsPage": {
-      "PageNav": "",
+      "PageNav": "PageLayout14",
       "Button": {
         "buttonText": {
           "1": "HOME",
@@ -807,13 +861,17 @@
       },
       "Contents": {
         "title": "CLUBS",
-        "image1": "image.png",
+        "image1": "resources/club.png",
         "subtitle1": "Explore clubs in AUPP",
         "description1": "At AUPP, we offer a diverse range of clubs for students to explore. Whether you're into sports, dance, music, baking, language learning, or even debate, there's a club for you. Joining a club not only enhances your college experience but also fosters personal growth, teamwork, and leadership skills. Dive into the world of clubs at AUPP and embark on an exciting journey of self-discovery and enrichment."
+      },
+      "Avatar": {
+        "avatar_image": "resources/eaglesimages/pingpongeagle.png"
       }
     },
+
     "CanteenPage": {
-      "PageNav": "",
+      "PageNav": "PageLayout14",
       "Button": {
         "buttonText": {
           "1": "HOME",
@@ -840,14 +898,17 @@
       },
       "Contents": {
         "title": "CANTEEN",
-        "image1": "image.png",
+        "image1": "resources/canteenpic.png",
         "subtitle1": "Feast at AUPP Canteen",
         "description1": "At AUPP, our canteen is a culinary haven offering a diverse menu of both Khmer and Western cuisines. Whether you're looking for a quick snack between classes or a full meal to recharge, our canteen has you covered. Join us on campus to savor the best of both worlds and experience the perfect blend of taste and convenience."
+      },
+      "Avatar": {
+        "avatar_image": "resources/eaglesimages/chefeagle.png"
       }
     },
 
     "Facilities_2Page": {
-      "PageNav": "",
+      "PageNav": "PageLayout13",
       "Button": {
         "buttonText": {
           "1": "HOME",
@@ -857,7 +918,7 @@
           "5": "BACK",
           "6": "",
           "7": "CSI",
-          "8": "INFIRMARY",
+          "8": "MEDICAL CLINIC",
           "9": ""
         },
         "buttonNav": {
@@ -874,19 +935,19 @@
       },
       "Contents": {
         "title": "Facilities",
-        "image1": "image.png",
+        "image1": "resources/Finance.png",
         "subtitle1": "FINANCE OFFICE",
-        "image2": "image.png",
-        "subtitle2": "IT SUPPORT",
-        "image3": "image.png",
-        "subtitle3": "CSI",
-        "image4": "image.png",
-        "subtitle4": "INFIRMARY"
+        "image2": "resources/csi.png",
+        "subtitle2": "CSI",
+        "image3": "resources/it_support.png",
+        "subtitle3": "IT SUPPORT",
+        "image4": "resources/infirmary.png",
+        "subtitle4": "MEDICAL CLINIC"
       }
     },
 
     "FinancePage": {
-      "PageNav": "",
+      "PageNav": "PageLayout14",
       "Button": {
         "buttonText": {
           "1": "HOME",
@@ -913,13 +974,17 @@
       },
       "Contents": {
         "title": "FINANCE OFFICE",
-        "image1": "image.png",
+        "image1": "resources/financepic.png",
         "subtitle1": "Navigating Financial Success at AUPP",
         "description1": "The Finance Office at AUPP is responsible for the university’s financial management. This includes overseeing accounts receivable and payable, preparing budgets, maintaining financial metrics, and ensuring the financial health of the institution. With a commitment to transparency and efficiency, the Finance Office plays a crucial role in supporting AUPP’s mission of providing internationally recognized US accredited dual degree programs"
+      },
+      "Avatar": {
+        "avatar_image": "resources/eaglesimages/suiteagle.png"
       }
     },
+
     "ITSupportPage": {
-      "PageNav": "",
+      "PageNav": "PageLayout14",
       "Button": {
         "buttonText": {
           "1": "HOME",
@@ -946,13 +1011,17 @@
       },
       "Contents": {
         "title": "IT SUPPORT OFFICE",
-        "image1": "image.png",
+        "image1": "resources/IT_SUPPORTPIC.png",
         "subtitle1": "Empowering Digital Transformation at AUPP",
         "description1": "The IT Support Facilities at AUPP provide essential services such as hardware and software setup, technical issue resolution, and new account creation. Their work supports the smooth operation of the university and its mission of providing a world-class education."
+      },
+      "Avatar": {
+        "avatar_image": "resources/eaglesimages/brokenlaptopeagle.png"
       }
     },
+
     "CSIPage": {
-      "PageNav": "",
+      "PageNav": "PageLayout14",
       "Button": {
         "buttonText": {
           "1": "HOME",
@@ -979,13 +1048,17 @@
       },
       "Contents": {
         "title": "CENTER FOR STUDENT INVOLVEMENT",
-        "image1": "image.png",
+        "image1": "resources/csipic.png",
         "subtitle1": "Fostering Community and Engagement at AUPP",
         "description1": "The CSI at AUPP provides a welcoming space where students can socialize, relax, and connect. It features a large common room with comfortable areas and a ping-pong table, encouraging students to form study groups or de-stress. The CSI is dedicated to creating a thriving community that supports students’ well-being and success"
+      },
+      "Avatar": {
+        "avatar_image": "resources/eaglesimages/guitareagle.png"
       }
     },
+
     "InfirmaryPage": {
-      "PageNav": "",
+      "PageNav": "PageLayout14",
       "Button": {
         "buttonText": {
           "1": "HOME",
@@ -1012,13 +1085,14 @@
       },
       "Contents": {
         "title": "AUPP MEDICAL AND CLINIC",
-        "image1": "image.png",
+        "image1": "resources/infirmarypic.png",
         "subtitle1": "Promoting Health and Wellness at AUPP",
         "description1": "The AUPP Clinic provides a range of healthcare services to students, faculty, and staff. Staffed by qualified healthcare professionals, the clinic offers preventative care, treatment of minor illnesses, and health education resources. It plays a vital role in ensuring the health and well-being of the AUPP community."
+      },
+      "Avatar": {
+        "avatar_image": "resources/eaglesimages/bandaideagle.png"
       }
     }
 
   }
-
-
 }

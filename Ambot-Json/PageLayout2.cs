@@ -21,24 +21,29 @@ namespace Ambot_Json
             string pageName = mainPanel.currentPage;
 
             //Home button
-            Image image1 = ImageLoader.LoadImage("Resources/back.png");
+            Image image1 = ImageLoader.LoadImage("Resources/ico/home_icon.png");
             buttonFullRadius1.Image = image1;
             //Back Button
             buttonRadiusRight2.Text = data.Pages[pageName].Button.buttonText["5"];
-            Image image = ImageLoader.LoadImage("Resources/arrow.png");
+            Image image = ImageLoader.LoadImage("Resources/ico/arrow.png");
             buttonRadiusRight2.Image = image;
 
 
             buttonRadiusRight1.Text = data.Pages[pageName].Button.buttonText["4"];
-            buttonRadiusLeft1.Text = data.Pages[pageName].Button.buttonText["8"];
+            buttonRadiusRight3.Text = data.Pages[pageName].Button.buttonText["3"];
 
             label1.Text = data.Pages[pageName].Contents.title;
             label2.Text = data.Pages[pageName].Contents.subtitle1;
 
             Image image3 = ImageLoader.LoadImage(data.Pages[pageName].Contents.image1);
-            pictureBox1.Image = image3;
+            overviewPic.Image = image3;
             Image image4 = ImageLoader.LoadImage(data.Pages[pageName].Contents.image2);
-            pictureBox2.Image = image4;
+            vmvPic.Image = image4;
+
+            Image avatar = ImageLoader.LoadImage(data.Pages[pageName].Avatar.avatar_image);
+    
+
+            avatarPic.Image = avatar;
 
 
         }

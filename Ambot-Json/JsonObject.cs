@@ -1,12 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
-using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace Ambot_Json
 {
@@ -22,6 +17,8 @@ namespace Ambot_Json
         public class Contents
         {
             public string logo { get; set; }
+            
+            public string image { get; set; }
             public string image1 { get; set; }
             public string image2 { get; set; }
             public string image3 { get; set; }
@@ -38,7 +35,20 @@ namespace Ambot_Json
             public string description1 { get; set; }
             public string description2 { get; set; }
             public string description3 { get; set; }
+            public string description4 { get; set; }
+            public string description5 { get; set; }
+            public string description6 { get; set; }
+            public string description7 { get; set; }
+            public string description8 { get; set; }
             public string instruction { get; set; }
+            public string QR_image { get; set; }
+            public string QR_description { get; set; }
+        }
+
+        public class Avatar
+        {
+            public string avatar_image { get; set; }
+            public string bubble_text1 { get; set; }
         }
 
         public class Pages
@@ -47,12 +57,13 @@ namespace Ambot_Json
             public string PageName { get; set; }
             public ControlButton Button { get; set; }
             public Contents Contents { get; set; }
+            public Avatar Avatar { get; set; } // Add this line
         }
 
         public class Root
         {
             public Dictionary<string, Pages> Pages { get; set; }
-
+            //Convert json object from json file to accomidate C#
             public static Root Deserialize()
             {
                 // Deserialize the JSON file into a C# object
@@ -61,8 +72,6 @@ namespace Ambot_Json
                 return JsonConvert.DeserializeObject<JsonObject.Root>(json);
             }
         }
-
-
 
     }
 }

@@ -20,16 +20,6 @@ namespace Ambot_Json
             set { _currentPage = value; }
         }
 
-        //global label that can be created and use in Usercontrol
-        public Label CreateDefaultLabel()
-        {
-            Label label = new Label();
-            label.MaximumSize = new Size(700, 0);
-            label.AutoSize = true;
-            label.Font = new Font("Futura LtCn BT", 25);
-            return label;
-        }
-
         public mainPanel()
         {
             InitializeComponent();
@@ -46,7 +36,7 @@ namespace Ambot_Json
             //e.g. if current page is "HomePage" and key is 1, the new current page will be "AboutUsPage"
             if (key != "0")
             {
-                //check if the page that will navigate through empty or not
+                //check if the page that navigate through is empty or not
                 if (!string.IsNullOrEmpty(data.Pages[currentPage].Button.buttonNav[key]))
                 {
                     currentPage = data.Pages[currentPage].Button.buttonNav[key];
@@ -97,15 +87,17 @@ namespace Ambot_Json
             LoadUserControl("0");
         }
 
+        //keydown event
         protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
         { 
             if (currentPage != "")
             {
-                if (keyData >= Keys.A && keyData <= Keys.Z || keyData >= Keys.D0 && keyData <= Keys.D9)
+                if (keyData >= Keys.D0 && keyData <= Keys.D9)
                 {
-                    string key = keyData.ToString().Substring(1);
+                    string tempkey = keyData.ToString().Substring(1);
 
-                    LoadUserControl(key);
+                    //perform the switch page on keydown
+                    LoadUserControl(tempkey);
 
                     // Handle the key press
                     return true;

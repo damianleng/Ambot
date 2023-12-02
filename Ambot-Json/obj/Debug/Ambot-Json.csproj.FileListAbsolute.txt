@@ -12,3 +12,89 @@ C:\Users\Admin\Downloads\Compressed\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.m
 C:\Users\Admin\Downloads\Compressed\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout1.resources
 C:\Users\Admin\Downloads\Compressed\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout2.resources
 C:\Users\Admin\Downloads\Compressed\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout3.resources
+C:\Users\User\Desktop\Ambot Proto\Ambot-Json\Ambot-Json\bin\Debug\Ambot-Json.exe.config
+C:\Users\User\Desktop\Ambot Proto\Ambot-Json\Ambot-Json\bin\Debug\Ambot-Json.exe
+C:\Users\User\Desktop\Ambot Proto\Ambot-Json\Ambot-Json\bin\Debug\Ambot-Json.pdb
+C:\Users\User\Desktop\Ambot Proto\Ambot-Json\Ambot-Json\obj\Debug\Ambot-Json.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Ambot Proto\Ambot-Json\Ambot-Json\obj\Debug\Ambot-Json.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\Ambot Proto\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.mainPanel.resources
+C:\Users\User\Desktop\Ambot Proto\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout1.resources
+C:\Users\User\Desktop\Ambot Proto\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout2.resources
+C:\Users\User\Desktop\Ambot Proto\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout3.resources
+C:\Users\User\Desktop\Ambot Proto\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.Properties.Resources.resources
+C:\Users\User\Desktop\Ambot Proto\Ambot-Json\Ambot-Json\obj\Debug\Ambot-Json.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Ambot Proto\Ambot-Json\Ambot-Json\obj\Debug\Ambot-Json.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Ambot Proto\Ambot-Json\Ambot-Json\obj\Debug\Ambot-Json.csproj.CopyComplete
+C:\Users\User\Desktop\Ambot Proto\Ambot-Json\Ambot-Json\obj\Debug\Ambot-Json.exe
+C:\Users\User\Desktop\Ambot Proto\Ambot-Json\Ambot-Json\obj\Debug\Ambot-Json.pdb
+C:\Users\User\Desktop\Ambot Proto\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout4.resources
+C:\Users\User\Desktop\Ambot Proto\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout5.resources
+C:\Users\User\Desktop\Ambot Proto\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout6.resources
+C:\Users\User\Desktop\Ambot Proto\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout8.resources
+C:\Users\Admin\Downloads\SendToHong\SendToHong\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot-Json.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\SendToHong\SendToHong\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot-Json.exe
+C:\Users\Admin\Downloads\SendToHong\SendToHong\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot-Json.pdb
+C:\Users\Admin\Downloads\SendToHong\SendToHong\Ambot-Json\Ambot-Json\Ambot-Json\bin\Debug\Ambot-Json.exe.config
+C:\Users\Admin\Downloads\SendToHong\SendToHong\Ambot-Json\Ambot-Json\Ambot-Json\bin\Debug\Ambot-Json.exe
+C:\Users\Admin\Downloads\SendToHong\SendToHong\Ambot-Json\Ambot-Json\Ambot-Json\bin\Debug\Ambot-Json.pdb
+C:\Users\Admin\Downloads\SendToHong\SendToHong\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.mainPanel.resources
+C:\Users\Admin\Downloads\SendToHong\SendToHong\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout5.resources
+C:\Users\Admin\Downloads\SendToHong\SendToHong\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout1.resources
+C:\Users\Admin\Downloads\SendToHong\SendToHong\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout2.resources
+C:\Users\Admin\Downloads\SendToHong\SendToHong\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout3.resources
+C:\Users\Admin\Downloads\SendToHong\SendToHong\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout4.resources
+C:\Users\Admin\Downloads\SendToHong\SendToHong\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout6.resources
+C:\Users\Admin\Downloads\SendToHong\SendToHong\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout8.resources
+C:\Users\Admin\Downloads\SendToHong\SendToHong\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.Properties.Resources.resources
+C:\Users\Admin\Downloads\SendToHong\SendToHong\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot-Json.csproj.GenerateResource.cache
+C:\Users\Admin\Downloads\SendToHong\SendToHong\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot-Json.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\SendToHong\SendToHong\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot-Json.csproj.CopyComplete
+C:\Users\Admin\Downloads\SendToHong\SendToHong\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout9.resources
+C:\Users\Admin\Downloads\SendToHong\SendToHong\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout10.resources
+C:\Users\Admin\Downloads\SendToHong\SendToHong\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout11.resources
+C:\Users\Sambath\Desktop\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot-Json.csproj.AssemblyReference.cache
+C:\Users\Sambath\Desktop\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot-Json.csproj.SuggestedBindingRedirects.cache
+C:\Users\Sambath\Desktop\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.mainPanel.resources
+C:\Users\Sambath\Desktop\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout10.resources
+C:\Users\Sambath\Desktop\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout11.resources
+C:\Users\Sambath\Desktop\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout5.resources
+C:\Users\Sambath\Desktop\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout1.resources
+C:\Users\Sambath\Desktop\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout2.resources
+C:\Users\Sambath\Desktop\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout3.resources
+C:\Users\Sambath\Desktop\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout4.resources
+C:\Users\Sambath\Desktop\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout6.resources
+C:\Users\Sambath\Desktop\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout8.resources
+C:\Users\Sambath\Desktop\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout9.resources
+C:\Users\Sambath\Desktop\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.Properties.Resources.resources
+C:\Users\Sambath\Desktop\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot-Json.csproj.GenerateResource.cache
+C:\Users\Sambath\Desktop\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot-Json.csproj.CoreCompileInputs.cache
+C:\Users\Sambath\Desktop\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot-Json.exe
+C:\Users\Sambath\Desktop\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot-Json.pdb
+C:\Users\Sambath\Desktop\Ambot-Json\Ambot-Json\Ambot-Json\bin\Debug\Ambot-Json.exe.config
+C:\Users\Sambath\Desktop\Ambot-Json\Ambot-Json\Ambot-Json\bin\Debug\Ambot-Json.exe
+C:\Users\Sambath\Desktop\Ambot-Json\Ambot-Json\Ambot-Json\bin\Debug\Ambot-Json.pdb
+C:\Users\Sambath\Desktop\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot-Json.csproj.CopyComplete
+C:\Users\Admin\Downloads\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot-Json.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot-Json.exe
+C:\Users\Admin\Downloads\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot-Json.pdb
+C:\Users\Admin\Downloads\Ambot-Json\Ambot-Json\Ambot-Json\bin\Debug\Ambot-Json.exe.config
+C:\Users\Admin\Downloads\Ambot-Json\Ambot-Json\Ambot-Json\bin\Debug\Ambot-Json.exe
+C:\Users\Admin\Downloads\Ambot-Json\Ambot-Json\Ambot-Json\bin\Debug\Ambot-Json.pdb
+C:\Users\Admin\Downloads\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.mainPanel.resources
+C:\Users\Admin\Downloads\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout10.resources
+C:\Users\Admin\Downloads\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout11.resources
+C:\Users\Admin\Downloads\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout5.resources
+C:\Users\Admin\Downloads\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout1.resources
+C:\Users\Admin\Downloads\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout2.resources
+C:\Users\Admin\Downloads\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout3.resources
+C:\Users\Admin\Downloads\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout4.resources
+C:\Users\Admin\Downloads\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout6.resources
+C:\Users\Admin\Downloads\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout8.resources
+C:\Users\Admin\Downloads\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout9.resources
+C:\Users\Admin\Downloads\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.Properties.Resources.resources
+C:\Users\Admin\Downloads\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot-Json.csproj.GenerateResource.cache
+C:\Users\Admin\Downloads\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot-Json.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot-Json.csproj.CopyComplete
+C:\Users\Admin\Downloads\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout12.resources
+C:\Users\Admin\Downloads\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout13.resources
+C:\Users\Admin\Downloads\Ambot-Json\Ambot-Json\Ambot-Json\obj\Debug\Ambot_Json.PageLayout14.resources

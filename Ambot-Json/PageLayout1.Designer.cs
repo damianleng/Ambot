@@ -28,63 +28,61 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.AUPPLogo = new System.Windows.Forms.PictureBox();
+            this.Speechbubble = new System.Windows.Forms.PictureBox();
+            this.AvatarPic = new System.Windows.Forms.PictureBox();
+            this.bubbleText = new System.Windows.Forms.Label();
             this.buttonRadiusRight4 = new Ambot_Json.CustomButton.ButtonRadiusRight();
             this.buttonRadiusRight3 = new Ambot_Json.CustomButton.ButtonRadiusRight();
-            this.buttonRadiusLeft4 = new Ambot_Json.CustomButton.ButtonRadiusLeft();
             this.buttonRadiusLeft3 = new Ambot_Json.CustomButton.ButtonRadiusLeft();
             this.buttonRadiusRight2 = new Ambot_Json.CustomButton.ButtonRadiusRight();
             this.buttonRadiusLeft2 = new Ambot_Json.CustomButton.ButtonRadiusLeft();
             this.buttonRadiusRight1 = new Ambot_Json.CustomButton.ButtonRadiusRight();
             this.buttonRadiusLeft1 = new Ambot_Json.CustomButton.ButtonRadiusLeft();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.AUPPLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Speechbubble)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.AvatarPic)).BeginInit();
             this.SuspendLayout();
             // 
-            // label2
+            // AUPPLogo
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Proxima Nova Rg", 15.75F);
-            this.label2.Location = new System.Drawing.Point(619, 600);
-            this.label2.MaximumSize = new System.Drawing.Size(700, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 21);
-            this.label2.TabIndex = 28;
-            this.label2.Text = "label2";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.AUPPLogo.Location = new System.Drawing.Point(810, 3);
+            this.AUPPLogo.Name = "AUPPLogo";
+            this.AUPPLogo.Size = new System.Drawing.Size(300, 300);
+            this.AUPPLogo.TabIndex = 17;
+            this.AUPPLogo.TabStop = false;
             // 
-            // pictureBox1
+            // Speechbubble
             // 
-            this.pictureBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.pictureBox1.Location = new System.Drawing.Point(775, 149);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(350, 350);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 27;
-            this.pictureBox1.TabStop = false;
+            this.Speechbubble.Location = new System.Drawing.Point(760, 330);
+            this.Speechbubble.Name = "Speechbubble";
+            this.Speechbubble.Size = new System.Drawing.Size(400, 400);
+            this.Speechbubble.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Speechbubble.TabIndex = 19;
+            this.Speechbubble.TabStop = false;
             // 
-            // label3
+            // AvatarPic
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Futura LtCn BT", 20.25F);
-            this.label3.Location = new System.Drawing.Point(792, 704);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 32);
-            this.label3.TabIndex = 26;
-            this.label3.Text = "label3";
+            this.AvatarPic.Location = new System.Drawing.Point(432, 630);
+            this.AvatarPic.Name = "AvatarPic";
+            this.AvatarPic.Size = new System.Drawing.Size(400, 400);
+            this.AvatarPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.AvatarPic.TabIndex = 20;
+            this.AvatarPic.TabStop = false;
             // 
-            // label1
+            // bubbleText
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Futura BdCn BT", 36F);
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(38)))), ((int)(((byte)(94)))));
-            this.label1.Location = new System.Drawing.Point(768, 527);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(133, 57);
-            this.label1.TabIndex = 25;
-            this.label1.Text = "label1";
+            this.bubbleText.AutoSize = true;
+            this.bubbleText.BackColor = System.Drawing.SystemColors.Window;
+            this.bubbleText.Font = new System.Drawing.Font("Futura LtCn BT", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bubbleText.Location = new System.Drawing.Point(810, 432);
+            this.bubbleText.MaximumSize = new System.Drawing.Size(300, 0);
+            this.bubbleText.MinimumSize = new System.Drawing.Size(300, 0);
+            this.bubbleText.Name = "bubbleText";
+            this.bubbleText.Size = new System.Drawing.Size(300, 35);
+            this.bubbleText.TabIndex = 21;
+            this.bubbleText.Text = "label1";
+            this.bubbleText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // buttonRadiusRight4
             // 
@@ -95,9 +93,9 @@
             this.buttonRadiusRight4.BorderSize = 0;
             this.buttonRadiusRight4.FlatAppearance.BorderSize = 0;
             this.buttonRadiusRight4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonRadiusRight4.Font = new System.Drawing.Font("Proxima Nova Rg", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonRadiusRight4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonRadiusRight4.ForeColor = System.Drawing.Color.White;
-            this.buttonRadiusRight4.Location = new System.Drawing.Point(-2, 330);
+            this.buttonRadiusRight4.Location = new System.Drawing.Point(-2, 992);
             this.buttonRadiusRight4.Name = "buttonRadiusRight4";
             this.buttonRadiusRight4.Size = new System.Drawing.Size(240, 90);
             this.buttonRadiusRight4.TabIndex = 16;
@@ -114,7 +112,7 @@
             this.buttonRadiusRight3.BorderSize = 0;
             this.buttonRadiusRight3.FlatAppearance.BorderSize = 0;
             this.buttonRadiusRight3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonRadiusRight3.Font = new System.Drawing.Font("Proxima Nova Rg", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonRadiusRight3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonRadiusRight3.ForeColor = System.Drawing.Color.White;
             this.buttonRadiusRight3.Location = new System.Drawing.Point(-2, 660);
             this.buttonRadiusRight3.Name = "buttonRadiusRight3";
@@ -123,25 +121,6 @@
             this.buttonRadiusRight3.Text = "Text";
             this.buttonRadiusRight3.TextColor = System.Drawing.Color.White;
             this.buttonRadiusRight3.UseVisualStyleBackColor = false;
-            // 
-            // buttonRadiusLeft4
-            // 
-            this.buttonRadiusLeft4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(38)))), ((int)(((byte)(94)))));
-            this.buttonRadiusLeft4.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(38)))), ((int)(((byte)(94)))));
-            this.buttonRadiusLeft4.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.buttonRadiusLeft4.BorderRadius = 20;
-            this.buttonRadiusLeft4.BorderSize = 0;
-            this.buttonRadiusLeft4.FlatAppearance.BorderSize = 0;
-            this.buttonRadiusLeft4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonRadiusLeft4.Font = new System.Drawing.Font("Proxima Nova Rg", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonRadiusLeft4.ForeColor = System.Drawing.Color.White;
-            this.buttonRadiusLeft4.Location = new System.Drawing.Point(1682, 660);
-            this.buttonRadiusLeft4.Name = "buttonRadiusLeft4";
-            this.buttonRadiusLeft4.Size = new System.Drawing.Size(240, 90);
-            this.buttonRadiusLeft4.TabIndex = 14;
-            this.buttonRadiusLeft4.Text = "Text";
-            this.buttonRadiusLeft4.TextColor = System.Drawing.Color.White;
-            this.buttonRadiusLeft4.UseVisualStyleBackColor = false;
             // 
             // buttonRadiusLeft3
             // 
@@ -152,9 +131,9 @@
             this.buttonRadiusLeft3.BorderSize = 0;
             this.buttonRadiusLeft3.FlatAppearance.BorderSize = 0;
             this.buttonRadiusLeft3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonRadiusLeft3.Font = new System.Drawing.Font("Proxima Nova Rg", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonRadiusLeft3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonRadiusLeft3.ForeColor = System.Drawing.Color.White;
-            this.buttonRadiusLeft3.Location = new System.Drawing.Point(1682, 330);
+            this.buttonRadiusLeft3.Location = new System.Drawing.Point(1682, 660);
             this.buttonRadiusLeft3.Name = "buttonRadiusLeft3";
             this.buttonRadiusLeft3.Size = new System.Drawing.Size(240, 90);
             this.buttonRadiusLeft3.TabIndex = 13;
@@ -171,9 +150,9 @@
             this.buttonRadiusRight2.BorderSize = 0;
             this.buttonRadiusRight2.FlatAppearance.BorderSize = 0;
             this.buttonRadiusRight2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonRadiusRight2.Font = new System.Drawing.Font("Proxima Nova Rg", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonRadiusRight2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonRadiusRight2.ForeColor = System.Drawing.Color.White;
-            this.buttonRadiusRight2.Location = new System.Drawing.Point(-2, 992);
+            this.buttonRadiusRight2.Location = new System.Drawing.Point(-2, 330);
             this.buttonRadiusRight2.Name = "buttonRadiusRight2";
             this.buttonRadiusRight2.Size = new System.Drawing.Size(240, 90);
             this.buttonRadiusRight2.TabIndex = 12;
@@ -190,9 +169,9 @@
             this.buttonRadiusLeft2.BorderSize = 0;
             this.buttonRadiusLeft2.FlatAppearance.BorderSize = 0;
             this.buttonRadiusLeft2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonRadiusLeft2.Font = new System.Drawing.Font("Proxima Nova Rg", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonRadiusLeft2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonRadiusLeft2.ForeColor = System.Drawing.Color.White;
-            this.buttonRadiusLeft2.Location = new System.Drawing.Point(1682, 992);
+            this.buttonRadiusLeft2.Location = new System.Drawing.Point(1682, 330);
             this.buttonRadiusLeft2.Name = "buttonRadiusLeft2";
             this.buttonRadiusLeft2.Size = new System.Drawing.Size(240, 90);
             this.buttonRadiusLeft2.TabIndex = 11;
@@ -209,7 +188,7 @@
             this.buttonRadiusRight1.BorderSize = 0;
             this.buttonRadiusRight1.FlatAppearance.BorderSize = 0;
             this.buttonRadiusRight1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonRadiusRight1.Font = new System.Drawing.Font("Proxima Nova Rg", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonRadiusRight1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonRadiusRight1.ForeColor = System.Drawing.Color.White;
             this.buttonRadiusRight1.Location = new System.Drawing.Point(-2, -2);
             this.buttonRadiusRight1.Name = "buttonRadiusRight1";
@@ -228,7 +207,7 @@
             this.buttonRadiusLeft1.BorderSize = 0;
             this.buttonRadiusLeft1.FlatAppearance.BorderSize = 0;
             this.buttonRadiusLeft1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonRadiusLeft1.Font = new System.Drawing.Font("Proxima Nova Rg", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonRadiusLeft1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonRadiusLeft1.ForeColor = System.Drawing.Color.White;
             this.buttonRadiusLeft1.Location = new System.Drawing.Point(1682, -2);
             this.buttonRadiusLeft1.Name = "buttonRadiusLeft1";
@@ -242,13 +221,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.bubbleText);
+            this.Controls.Add(this.AvatarPic);
+            this.Controls.Add(this.Speechbubble);
+            this.Controls.Add(this.AUPPLogo);
             this.Controls.Add(this.buttonRadiusRight4);
             this.Controls.Add(this.buttonRadiusRight3);
-            this.Controls.Add(this.buttonRadiusLeft4);
             this.Controls.Add(this.buttonRadiusLeft3);
             this.Controls.Add(this.buttonRadiusRight2);
             this.Controls.Add(this.buttonRadiusLeft2);
@@ -257,7 +235,9 @@
             this.Name = "PageLayout1";
             this.Size = new System.Drawing.Size(1920, 1080);
             this.Load += new System.EventHandler(this.PageNo1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.AUPPLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Speechbubble)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.AvatarPic)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -266,15 +246,14 @@
         #endregion
         private CustomButton.ButtonRadiusRight buttonRadiusRight4;
         private CustomButton.ButtonRadiusRight buttonRadiusRight3;
-        private CustomButton.ButtonRadiusLeft buttonRadiusLeft4;
         private CustomButton.ButtonRadiusLeft buttonRadiusLeft3;
         private CustomButton.ButtonRadiusRight buttonRadiusRight2;
         private CustomButton.ButtonRadiusLeft buttonRadiusLeft2;
         private CustomButton.ButtonRadiusRight buttonRadiusRight1;
         private CustomButton.ButtonRadiusLeft buttonRadiusLeft1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox AUPPLogo;
+        private System.Windows.Forms.PictureBox Speechbubble;
+        private System.Windows.Forms.PictureBox AvatarPic;
+        private System.Windows.Forms.Label bubbleText;
     }
 }

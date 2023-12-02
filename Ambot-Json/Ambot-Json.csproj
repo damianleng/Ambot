@@ -66,6 +66,42 @@
     </Compile>
     <Compile Include="ImageLoader.cs" />
     <Compile Include="JsonObject.cs" />
+    <Compile Include="PageLayout10.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PageLayout10.Designer.cs">
+      <DependentUpon>PageLayout10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PageLayout11.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PageLayout11.Designer.cs">
+      <DependentUpon>PageLayout11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PageLayout12.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PageLayout12.Designer.cs">
+      <DependentUpon>PageLayout12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PageLayout13.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PageLayout13.Designer.cs">
+      <DependentUpon>PageLayout13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PageLayout14.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PageLayout14.Designer.cs">
+      <DependentUpon>PageLayout14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PageLayout5.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PageLayout5.Designer.cs">
+      <DependentUpon>PageLayout5.cs</DependentUpon>
+    </Compile>
     <Compile Include="PageLayout1.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -84,10 +120,52 @@
     <Compile Include="PageLayout3.Designer.cs">
       <DependentUpon>PageLayout3.cs</DependentUpon>
     </Compile>
+    <Compile Include="PageLayout4.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PageLayout4.Designer.cs">
+      <DependentUpon>PageLayout4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PageLayout6.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PageLayout6.Designer.cs">
+      <DependentUpon>PageLayout6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PageLayout8.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PageLayout8.Designer.cs">
+      <DependentUpon>PageLayout8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PageLayout9.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PageLayout9.Designer.cs">
+      <DependentUpon>PageLayout9.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PageLayout10.resx">
+      <DependentUpon>PageLayout10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PageLayout11.resx">
+      <DependentUpon>PageLayout11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PageLayout12.resx">
+      <DependentUpon>PageLayout12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PageLayout13.resx">
+      <DependentUpon>PageLayout13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PageLayout14.resx">
+      <DependentUpon>PageLayout14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PageLayout5.resx">
+      <DependentUpon>PageLayout5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PageLayout1.resx">
       <DependentUpon>PageLayout1.cs</DependentUpon>
@@ -98,6 +176,18 @@
     <EmbeddedResource Include="PageLayout3.resx">
       <DependentUpon>PageLayout3.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PageLayout4.resx">
+      <DependentUpon>PageLayout4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PageLayout6.resx">
+      <DependentUpon>PageLayout6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PageLayout8.resx">
+      <DependentUpon>PageLayout8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PageLayout9.resx">
+      <DependentUpon>PageLayout9.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -106,6 +196,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="bin\Debug\Ambot.json" />
     <None Include="bin\Debug\Ambot-Json.exe.config" />
@@ -128,39 +219,70 @@
     <Content Include="bin\Debug\Ambot-Json.pdb" />
     <Content Include="bin\Debug\Newtonsoft.Json.dll" />
     <Content Include="bin\Debug\Newtonsoft.Json.xml" />
-    <Content Include="bin\Debug\Resources\Ambot-images\AUppcenter.png" />
-    <Content Include="bin\Debug\Resources\Ambot-images\banners\enrollment-banner.png" />
-    <Content Include="bin\Debug\Resources\Ambot-images\banners\majors-banner.png" />
-    <Content Include="bin\Debug\Resources\Ambot-images\banners\scholarship-banner.png" />
-    <Content Include="bin\Debug\Resources\Ambot-images\Business.png" />
-    <Content Include="bin\Debug\Resources\Ambot-images\Canteen.png" />
-    <Content Include="bin\Debug\Resources\Ambot-images\Cloudcomputing.png" />
-    <Content Include="bin\Debug\Resources\Ambot-images\clubs.png" />
-    <Content Include="bin\Debug\Resources\Ambot-images\cs.itm.png" />
-    <Content Include="bin\Debug\Resources\Ambot-images\CSI.png" />
-    <Content Include="bin\Debug\Resources\Ambot-images\Cyber.png" />
-    <Content Include="bin\Debug\Resources\Ambot-images\FinanceOffice.png" />
-    <Content Include="bin\Debug\Resources\Ambot-images\Globalaffairs.png" />
-    <Content Include="bin\Debug\Resources\Ambot-images\ict.png" />
-    <Content Include="bin\Debug\Resources\Ambot-images\InformationTechnology.png" />
-    <Content Include="bin\Debug\Resources\Ambot-images\ItSUPPORT.png" />
-    <Content Include="bin\Debug\Resources\Ambot-images\Law.png" />
-    <Content Include="bin\Debug\Resources\Ambot-images\legalstudies.png" />
-    <Content Include="bin\Debug\Resources\Ambot-images\library.png" />
-    <Content Include="bin\Debug\Resources\Ambot-images\medicalclinic.png" />
-    <Content Include="bin\Debug\Resources\Ambot-images\SD.png" />
-    <Content Include="bin\Debug\Resources\arizona logo.png" />
-    <Content Include="bin\Debug\Resources\arrow.png" />
-    <Content Include="bin\Debug\Resources\aupp campus.png" />
+    <Content Include="bin\Debug\Resources\aboutUs_1.png" />
+    <Content Include="bin\Debug\Resources\aboutUs_2.png" />
+    <Content Include="bin\Debug\Resources\Arizona_Logo.png" />
+    <Content Include="bin\Debug\Resources\ATC.png" />
+    <Content Include="bin\Debug\Resources\aupp_center.png" />
     <Content Include="bin\Debug\Resources\AUPP_Logo.png" />
-    <Content Include="bin\Debug\Resources\back.png" />
-    <Content Include="bin\Debug\Resources\Fort_Hays_State_Tigers_logo.svg.png" />
-    <Content Include="bin\Debug\Resources\home.png" />
-    <Content Include="bin\Debug\Resources\HomeAboutUs1.png" />
-    <Content Include="bin\Debug\Resources\HomeAboutUs2.png" />
-    <Content Include="bin\Debug\Resources\HomeAboutUs3.png" />
-    <Content Include="bin\Debug\Resources\left-arrow.png" />
-    <Content Include="bin\Debug\Resources\right.png" />
+    <Content Include="bin\Debug\Resources\bachelor_admission.png" />
+    <Content Include="bin\Debug\Resources\banner\business_banner.png" />
+    <Content Include="bin\Debug\Resources\banner\enrollment_banner.png" />
+    <Content Include="bin\Debug\Resources\banner\global_banner.png" />
+    <Content Include="bin\Debug\Resources\banner\international_banner.png" />
+    <Content Include="bin\Debug\Resources\banner\IT_banner.png" />
+    <Content Include="bin\Debug\Resources\banner\law&amp;global_banner.png" />
+    <Content Include="bin\Debug\Resources\banner\law_banner.png" />
+    <Content Include="bin\Debug\Resources\banner\legal_banner.png" />
+    <Content Include="bin\Debug\Resources\banner\majors_banner.png" />
+    <Content Include="bin\Debug\Resources\banner\partnership_banner.png" />
+    <Content Include="bin\Debug\Resources\banner\scholarship_banner.png" />
+    <Content Include="bin\Debug\Resources\banner\study_business_banner.png" />
+    <Content Include="bin\Debug\Resources\banner\study_law_banner.png" />
+    <Content Include="bin\Debug\Resources\banner\transfer_banner.png" />
+    <Content Include="bin\Debug\Resources\canteen.png" />
+    <Content Include="bin\Debug\Resources\canteenPic.png" />
+    <Content Include="bin\Debug\Resources\CLUB.png" />
+    <Content Include="bin\Debug\Resources\clubs.png" />
+    <Content Include="bin\Debug\Resources\csi.png" />
+    <Content Include="bin\Debug\Resources\csiPic.png" />
+    <Content Include="bin\Debug\Resources\eaglesimages\bandaideagle.png" />
+    <Content Include="bin\Debug\Resources\eaglesimages\book.png" />
+    <Content Include="bin\Debug\Resources\eaglesimages\brokenlaptopeagle.png" />
+    <Content Include="bin\Debug\Resources\eaglesimages\chefeagle.png" />
+    <Content Include="bin\Debug\Resources\eaglesimages\flippedeagle.png" />
+    <Content Include="bin\Debug\Resources\eaglesimages\graduationeagle.png" />
+    <Content Include="bin\Debug\Resources\eaglesimages\guitareagle.png" />
+    <Content Include="bin\Debug\Resources\eaglesimages\laptopeagle.png" />
+    <Content Include="bin\Debug\Resources\eaglesimages\megaphoneeagle.png" />
+    <Content Include="bin\Debug\Resources\eaglesimages\normaleagle.png" />
+    <Content Include="bin\Debug\Resources\eaglesimages\pingpongeagle.png" />
+    <Content Include="bin\Debug\Resources\eaglesimages\suiteagle.png" />
+    <Content Include="bin\Debug\Resources\finance.png" />
+    <Content Include="bin\Debug\Resources\financePic.png" />
+    <Content Include="bin\Debug\Resources\Fort_Hays_Logo.png" />
+    <Content Include="bin\Debug\Resources\full.png" />
+    <Content Include="bin\Debug\Resources\infirmary.png" />
+    <Content Include="bin\Debug\Resources\infirmaryPic.png" />
+    <Content Include="bin\Debug\Resources\it_support.png" />
+    <Content Include="bin\Debug\Resources\IT_SUPPORTPic.png" />
+    <Content Include="bin\Debug\Resources\library.png" />
+    <Content Include="bin\Debug\Resources\libraryPic.png" />
+    <Content Include="bin\Debug\Resources\majors.png" />
+    <Content Include="bin\Debug\Resources\master_admission.png" />
+    <Content Include="bin\Debug\Resources\merit.png" />
+    <Content Include="bin\Debug\Resources\overview.png" />
+    <Content Include="bin\Debug\Resources\qr\qr-codeBachelorAdmission.png" />
+    <Content Include="bin\Debug\Resources\qr\qr-codeEvent.png" />
+    <Content Include="bin\Debug\Resources\qr\qr-codeInternationalStudent.png" />
+    <Content Include="bin\Debug\Resources\qr\qr-codeMaster.png" />
+    <Content Include="bin\Debug\Resources\qr\qr-codeMerit+Full Scholarship.png" />
+    <Content Include="bin\Debug\Resources\qr\qr-codeSingle+Dual.png" />
+    <Content Include="bin\Debug\Resources\vision.png" />
+    <None Include="bin\Debug\Resources\ico\arrow.png" />
+    <None Include="bin\Debug\Resources\ico\home_icon.png" />
+    <None Include="bin\Debug\Resources\speech_bubble2.png" />
+    <None Include="bin\Debug\Resources\speech bubble.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\Release\" />
